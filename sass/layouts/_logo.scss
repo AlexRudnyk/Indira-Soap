@@ -1,0 +1,57 @@
+.logo-wrapper {
+  position: relative;
+  display: flex;
+
+  @media screen and (max-width: 767.98px) {
+    display: block;
+  }
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  background-image: url(../images/mandala.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  @media screen and (max-width: 767.98px) {
+    margin-bottom: 100px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 300px;
+    height: 300px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
+  }
+}
+
+.logo__title {
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  font-family: "Great Vibes", cursive;
+  font-size: 100px;
+  color: brown;
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    font-size: 130px;
+    top: 65px;
+    left: 170px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 150px;
+    top: 60px;
+    left: 205px;
+  }
+}
+
+.logo__text {
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  align-self: flex-end;
+}
