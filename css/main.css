@@ -310,6 +310,18 @@ img {
   padding-top: 73px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .refference-img {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .refference-img {
+    width: 1200px;
+  }
+}
+
 .contact__list {
   display: -webkit-box;
   display: -ms-flexbox;
