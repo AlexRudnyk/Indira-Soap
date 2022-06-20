@@ -1,0 +1,9 @@
+.refference {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.refference-wrapper {
+    padding-top: 73px;
+}

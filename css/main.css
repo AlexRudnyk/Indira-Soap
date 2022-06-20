@@ -302,6 +302,14 @@ img {
   }
 }
 
+.refference:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.refference-wrapper {
+  padding-top: 73px;
+}
+
 .contact__list {
   display: -webkit-box;
   display: -ms-flexbox;
