@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(252, 194, 137);
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width:767.98px) {
+    flex-direction: column;
+  }
+}
+
+.footer__title {
+  font-family: var(--secondary-brand-font);
+  font-size: var(--secondary-brand-size);
+
+    @media screen and (max-width:767.98px) {
+    margin-bottom: 20px;
+    font-size: 34px;
+    text-align: center;
+  }
+}

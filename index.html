@@ -12,62 +12,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="header container">
-        <ul class="contact__list">
-          <li class="contact__item">
-            <a
-              class="contact__link"
-              href="https://www.instagram.com/indira_soap/"
-              target="_blank"
-              rel="norefferer noopener"
-            >
-              <svg class="contact__icon" width="30" height="30">
-                <use href="./images/sprite.svg#instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="contact__item">
-            <a
-              class="contact__link"
-              href=""
-              target="_blank"
-              rel="norefferer noopener"
-            >
-              <svg class="contact__icon" width="30" height="30">
-                <use href="./images/sprite.svg#telegram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="contact__item">
-            <a class="contact__link" href="tel:+380672797808">
-              <svg class="contact__icon" width="30" height="30">
-                <use href="./images/sprite.svg#mobile"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="contact__item">
-            <a
-              class="contact__link number"
-              class="contact__link"
-              href="tel:+380672797808"
-              >+38 067 279 78 08</a
-            >
-          </li>
-        </ul>
+      <ul class="contact__list">
+        <li class="contact__item">
+          <a
+            class="contact__link"
+            href="https://www.instagram.com/indira_soap/"
+            target="_blank"
+            rel="norefferer noopener"
+          >
+            <svg class="contact__icon" width="30" height="30">
+              <use href="./images/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="contact__item">
+          <a
+            class="contact__link"
+            href=""
+            target="_blank"
+            rel="norefferer noopener"
+          >
+            <svg class="contact__icon" width="30" height="30">
+              <use href="./images/sprite.svg#telegram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="contact__item">
+          <a class="contact__link" href="tel:+380672797808">
+            <svg class="contact__icon" width="30" height="30">
+              <use href="./images/sprite.svg#mobile"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="contact__item">
+          <a
+            class="contact__link number"
+            class="contact__link"
+            href="tel:+380672797808"
+            >+38 067 279 78 08</a
+          >
+        </li>
+      </ul>
     </header>
     <main>
+      <!-- Hero section -->
       <section class="hero section">
         <div class="container">
           <div class="logo-wrapper">
@@ -77,13 +73,19 @@
           </div>
         </div>
       </section>
+      <!-- Goods section -->
       <section class="goods section">
         <div class="container">
           <h3 class="goods__title">Перелік товарів</h3>
           <ul class="goods__list">
             <li class="goods__item">
               <a href="" class="goods__link">
-                <img src="./images/goods-1.jpg" alt="" width="550" />
+                <img
+                  src="./images/goods-1.jpg"
+                  alt=""
+                  width="550"
+                  loading="lazy"
+                />
                 <div class="goods-description">
                   <h4 class="goods-description__title">Крем для тіла</h4>
                   <p class="goods-description__text">
@@ -96,7 +98,12 @@
             </li>
             <li class="goods__item">
               <a href="" class="goods__link"
-                ><img src="./images/goods-2.jpg" alt="" width="550" />
+                ><img
+                  src="./images/goods-2.jpg"
+                  alt=""
+                  width="550"
+                  loading="lazy"
+                />
                 <div class="goods-description">
                   <h4 class="goods-description__title">Натуральне мило</h4>
                   <p class="goods-description__text">
@@ -109,7 +116,12 @@
             </li>
             <li class="goods__item">
               <a href="" class="goods__link"
-                ><img src="./images/goods-3.jpg" alt="" width="550" />
+                ><img
+                  src="./images/goods-3.jpg"
+                  alt=""
+                  width="550"
+                  loading="lazy"
+                />
                 <div class="goods-description">
                   <h4 class="goods-description__title">Подарунковий набір</h4>
                   <p class="goods-description__text">
@@ -122,7 +134,12 @@
             </li>
             <li class="goods__item">
               <a href="" class="goods__link"
-                ><img src="./images/goods-4.jpg" alt="" width="550" />
+                ><img
+                  src="./images/goods-4.jpg"
+                  alt=""
+                  width="550"
+                  loading="lazy"
+                />
                 <div class="goods-description">
                   <h4 class="goods-description__title">
                     Подарунковий набір солодощі
@@ -139,23 +156,54 @@
         </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="container">
+        <div class="footer-wrapper">
+          <h3 class="footer__title">Кожен день має своє диво</h3>
+          <ul class="contact__list">
+            <li class="contact__item">
+              <a
+                class="contact__link"
+                href="https://www.instagram.com/indira_soap/"
+                target="_blank"
+                rel="norefferer noopener"
+              >
+                <svg class="contact__icon" width="30" height="30">
+                  <use href="./images/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="contact__item">
+              <a
+                class="contact__link"
+                href=""
+                target="_blank"
+                rel="norefferer noopener"
+              >
+                <svg class="contact__icon" width="30" height="30">
+                  <use href="./images/sprite.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="contact__item">
+              <a class="contact__link" href="tel:+380672797808">
+                <svg class="contact__icon" width="30" height="30">
+                  <use href="./images/sprite.svg#mobile"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="contact__item">
+              <a
+                class="contact__link number"
+                class="contact__link"
+                href="tel:+380672797808"
+                >+38 067 279 78 08</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
-
-<!-- <div class="wrapper">
-    <div class="container">
-        <h1 class="title">Indira<h1/>
-    </div>
-<p class="text">Тверді шампуні ручної роботи</p>
-<div class="contacts">
-        <p>Viber Telegram</p>
-    <a href="tel:+380672797808">+38 067 279 78 08</a>
-</div>
-    </div>
-    <ul class="list">
-        <li class="item"><a href="" class="link"><img src="" alt=""></a></li>
-        <li class="item"><a href="" class="link"><img src="" alt=""></a></li>
-        <li class="item"><a href="" class="link"><img src="" alt=""></a></li>
-        <li class="item"><a href="" class="link"><img src="" alt=""></a></li>
-    </ul> -->
