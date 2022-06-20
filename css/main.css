@@ -82,7 +82,7 @@ img {
 }
 
 .hero {
-  height: 900px;
+  height: 830px;
   padding-top: 200px;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero1.jpg);
   background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero1.jpg);
@@ -91,18 +91,17 @@ img {
   background-position: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+@media screen and (min-width: 768px) {
   .hero {
-    padding-top: 100px;
-    height: 620px;
+    padding-top: 80px;
+    height: 630px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero {
-    margin-top: 73px;
-    padding-top: 100px;
-    height: 620px;
+    padding-top: 150px;
+    height: 700px;
   }
 }
 
@@ -213,15 +212,15 @@ img {
   }
 }
 
-.goods__item {
+.goods__item:not(:last-child) {
   margin-bottom: 50px;
 }
 
 @media screen and (min-width: 1200px) {
-  .goods__item:nth-child(2n + 1) {
+  .goods__item:not(:last-child):nth-child(2n + 1) {
     margin-right: 70px;
   }
-  .goods__item:not(:nth-last-child(-n + 2)) {
+  .goods__item:not(:last-child):not(:nth-last-child(-n + 2)) {
     margin-bottom: 70px;
   }
 }

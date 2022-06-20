@@ -19,7 +19,7 @@
   }
 }
 
-.goods__item {
+.goods__item:not(:last-child) {
   margin-bottom: 50px;
 
   @media screen and (min-width: 1200px) {
