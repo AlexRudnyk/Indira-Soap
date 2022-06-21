@@ -6,14 +6,24 @@
       rgba(250, 212, 173, 0.5),
       rgba(250, 212, 173, 0.5)
     ),
-    url(../images/hero1.jpg);
+    url(../images/hero1_sm.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 
   @media screen and (min-width: 768px) {
     padding-top: 80px;
     height: 630px;
+
+    background-image: linear-gradient(
+      to right,
+      rgba(250, 212, 173, 0.5),
+      rgba(250, 212, 173, 0.5)
+    ),
+    url(../images/hero1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   }
 
   @media screen and (min-width: 1200px) {
