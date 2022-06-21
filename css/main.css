@@ -156,7 +156,7 @@ img {
   color: brown;
 }
 
-@media screen and (max-width: 399.98px) {
+@media screen and (max-width: 349.98px) {
   .logo__title {
     font-size: 60px;
     top: 30px;
@@ -354,17 +354,17 @@ img {
   font-size: var(--secondary-brand-size);
 }
 
-@media screen and (max-width: 399.98px) {
+@media screen and (max-width: 349.98px) {
   .footer__title {
     margin-bottom: 20px;
     font-size: 24px;
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 767.98px) {
+@media screen and (min-width: 350px) and (max-width: 767.98px) {
   .footer__title {
     margin-bottom: 20px;
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
   }
 }
