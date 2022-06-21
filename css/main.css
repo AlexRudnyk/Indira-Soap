@@ -84,10 +84,10 @@ img {
 .hero {
   height: 830px;
   padding-top: 200px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero1_sm.jpg);
-  background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero1_sm.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero-3.jpg);
+  background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero-3.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -95,10 +95,10 @@ img {
   .hero {
     padding-top: 80px;
     height: 630px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero1.jpg);
-    background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero1.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero-3.jpg);
+    background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero-3.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
   }
 }
@@ -126,10 +126,6 @@ img {
 .logo {
   width: 250px;
   height: 250px;
-  background-image: url(../images/mandala.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -153,18 +149,26 @@ img {
 
 .logo__title {
   position: absolute;
-  top: 60px;
-  left: 150px;
+  top: 45px;
+  left: 120px;
   font-family: var(--primary-brand-font);
   font-size: var(--primary-brand-size);
   color: brown;
+}
+
+@media screen and (max-width: 399.98px) {
+  .logo__title {
+    font-size: 60px;
+    top: 30px;
+    left: 85px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .logo__title {
     font-size: 130px;
     top: 65px;
-    left: 170px;
+    left: 180px;
   }
 }
 
@@ -183,11 +187,64 @@ img {
       align-self: flex-end;
 }
 
+@media screen and (max-width: 399.98px) {
+  .logo__text {
+    font-size: 28px;
+  }
+}
+
+.example-img {
+  width: 200px;
+  height: 200px;
+  margin-right: 150px;
+}
+
+@media screen and (min-width: 400px) {
+  .example-img {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .example-img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .example-img {
+    margin-left: 30px;
+  }
+}
+
+.example-img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 399.98px) {
+  .example-img-wrapper {
+    margin-bottom: 20px;
+  }
+}
+
 .goods__title {
   font-family: var(--secondary-brand-font);
   font-size: var(--secondary-brand-size);
   margin-bottom: 70px;
   text-align: center;
+}
+
+@media screen and (max-width: 399.98px) {
+  .goods__title {
+    font-size: 28px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -297,7 +354,14 @@ img {
   font-size: var(--secondary-brand-size);
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 399.98px) {
+  .footer__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 767.98px) {
   .footer__title {
     margin-bottom: 20px;
     font-size: 34px;

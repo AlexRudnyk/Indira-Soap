@@ -3,6 +3,10 @@
   font-size: var(--secondary-brand-size);
   margin-bottom: 70px;
   text-align: center;
+
+  @media screen and (max-width:399.98px) {
+    font-size: 28px;
+  }
 }
 
 .goods__list {

@@ -10,10 +10,10 @@
 .logo {
   width: 250px;
   height: 250px;
-  background-image: url(../images/mandala.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  // background-image: url(../images/mandala.png);
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: contain;
 
   @media screen and (max-width: 767.98px) {
     margin-bottom: 100px;
@@ -31,16 +31,22 @@
 
 .logo__title {
   position: absolute;
-  top: 60px;
-  left: 150px;
+  top: 45px;
+  left: 120px;
   font-family: var(--primary-brand-font);
   font-size: var(--primary-brand-size);
   color: brown;
 
+  @media screen and (max-width: 399.98px) {
+    font-size: 60px;
+    top: 30px;
+    left: 85px;
+  }
+
   @media screen and (min-width: 768px) and (max-width: 1199.98px) {
     font-size: 130px;
     top: 65px;
-    left: 170px;
+    left: 180px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -54,4 +60,39 @@
   font-family: var(--secondary-brand-font);
   font-size: var(--secondary-brand-size);
   align-self: flex-end;
+
+  @media screen and (max-width:399.98px) {
+    font-size: 28px;
+  }
 }
+
+// КОД ДЛЯ ПРИМЕРА //////////////////////////////////////////////////////////////////////////
+.example-img {
+  width: 200px;
+  height: 200px;
+  margin-right: 150px;
+
+  @media screen and (min-width: 400px) {
+    margin-right: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 300px;
+    height: 300px;
+  }
+
+  @media screen and (min-width:1200px) {
+    margin-left: 30px;
+  }
+}
+
+.example-img-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+
+  @media screen and (max-width: 399.98px) {
+    margin-bottom: 20px;
+  }
+}
+////////////////////////////////////////////////////////////////////////////////////////////

@@ -6,9 +6,9 @@
       rgba(250, 212, 173, 0.5),
       rgba(250, 212, 173, 0.5)
     ),
-    url(../images/hero1_sm.jpg);
+    url(../images/hero-3.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 
   @media screen and (min-width: 768px) {
@@ -20,9 +20,9 @@
       rgba(250, 212, 173, 0.5),
       rgba(250, 212, 173, 0.5)
     ),
-    url(../images/hero1.jpg);
+    url(../images/hero-3.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   }
 
