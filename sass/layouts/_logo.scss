@@ -61,7 +61,7 @@
   font-size: var(--secondary-brand-size);
   align-self: flex-end;
 
-  @media screen and (max-width:399.98px) {
+  @media screen and (max-width: 399.98px) {
     font-size: 28px;
   }
 }
@@ -81,7 +81,7 @@
     height: 300px;
   }
 
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     margin-left: 30px;
   }
 }
@@ -89,10 +89,14 @@
 .example-img-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 140px;
 
   @media screen and (max-width: 399.98px) {
     margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 70px;
   }
 }
 ////////////////////////////////////////////////////////////////////////////////////////////
