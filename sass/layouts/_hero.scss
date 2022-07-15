@@ -1,12 +1,12 @@
 .hero {
   height: 830px;
-  padding-top: 200px;
+  padding-top: 150px;
   background-image: linear-gradient(
       to right,
       rgba(250, 212, 173, 0.5),
       rgba(250, 212, 173, 0.5)
     ),
-    url(../images/hero-3.jpg);
+    url(../images/hero-5_sm.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,18 +16,27 @@
     height: 630px;
 
     background-image: linear-gradient(
-      to right,
-      rgba(250, 212, 173, 0.5),
-      rgba(250, 212, 173, 0.5)
-    ),
-    url(../images/hero-3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+        to right,
+        rgba(250, 212, 173, 0.5),
+        rgba(250, 212, 173, 0.5)
+      ),
+      url(../images/hero-51_md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   @media screen and (min-width: 1200px) {
     padding-top: 150px;
     height: 700px;
+    background-image: linear-gradient(
+        to right,
+        rgba(250, 212, 173, 0.5),
+        rgba(250, 212, 173, 0.5)
+      ),
+      url(../images/hero-5_lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }

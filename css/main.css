@@ -78,14 +78,14 @@ img {
   left: 0;
   z-index: 100;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .hero {
   height: 830px;
-  padding-top: 200px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero-3.jpg);
-  background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero-3.jpg);
+  padding-top: 150px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero-5_sm.jpg);
+  background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero-5_sm.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -95,8 +95,8 @@ img {
   .hero {
     padding-top: 80px;
     height: 630px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero-3.jpg);
-    background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero-3.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero-51_md.jpg);
+    background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero-51_md.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -107,6 +107,11 @@ img {
   .hero {
     padding-top: 150px;
     height: 700px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 212, 173, 0.5)), to(rgba(250, 212, 173, 0.5))), url(../images/hero-5_lg.jpg);
+    background-image: linear-gradient(to right, rgba(250, 212, 173, 0.5), rgba(250, 212, 173, 0.5)), url(../images/hero-5_lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
